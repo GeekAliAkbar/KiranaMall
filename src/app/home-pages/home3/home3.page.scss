@@ -1,0 +1,18 @@
+ion-content {
+  .swiper-slide {
+    max-width: 40%;
+  }
+  ion-slides {
+    ion-slide {
+      &:last-child {
+        height: auto;
+      }
+    }
+  }
+  ion-title {
+    font-size: 20px;
+  }
+  app-product {
+    width: 100%;
+  }
+}
